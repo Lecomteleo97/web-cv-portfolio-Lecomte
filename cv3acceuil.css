@@ -7,7 +7,7 @@
 
 body{
 	/*background-color:#3fabb9;*/
-	background-image : linear-gradient(to left, #fff 60%, #90b796 800px);
+	background-image : linear-gradient(to left, #fff 60%, #90b796 60%);
      font-family: 'Raleway Regular',Arial, serif ;
     margin: 0;
 	padding: 0;
