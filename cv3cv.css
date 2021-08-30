@@ -1,0 +1,181 @@
+@font-face {
+        font-family: 'Raleway Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Raleway Regular'), url('raleway2/Raleway-Regular.woff') format('woff');
+}
+body{
+	background-color: #e6dace;
+	 font-family: 'Raleway Regular',Arial, serif ;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	border: 0px black solid;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	font-size:1.3em;
+}
+.Name{
+	font-size: 1.1em;
+}
+.fas{
+	color: #307cff;
+}
+header{
+    display: flex;
+	border: 0px black solid;
+	justify-content: space-between;
+	background-color: white;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+}
+#navigation li{
+	display: inline;
+	margin-right: 10px;
+}
+#navigation{
+	border:0px solid black;
+	margin-top: 50px;
+}
+li span{
+	color: #307cff;
+	border-bottom:1px #307cff solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-weight: bold;
+}
+a[title*="ici"]{
+ text-decoration: none;
+ color:black;
+}
+a[title*="ici"]:hover{
+	color:#307cff;
+	padding-bottom: 10px;
+    border-bottom: 1px #307cff solid;
+	font-weight: bold;
+}
+a[title*="CV"]{
+	text-decoration: none;
+}
+a[title*="projets"]{
+	text-decoration: none;
+	color:black;
+}
+h2{
+	/*text-align: center;*/
+	margin-top: 5%;
+	font-size:2em;
+	background-color: #307cff;
+}
+.titrecv{
+	border:1px #307cff solid;
+	border-radius: 50px;
+	padding: 10px 20px 10px 20px;
+	background-color: #307cff;
+	color:white;
+	margin-left: 50px;
+	/*box-shadow: -10px 10px 15px grey;*/
+}
+h3{
+	text-align: center;
+}
+
+.titreexp{
+	font-size:1.5em;
+	border:0px black solid;
+	border-radius: 50px;
+	padding: 8px;
+	background-color:#e6dace; 
+}
+.experience{
+	border:0px black solid;
+	width: 70%;
+	background-color: white;
+	margin-left:15%;
+	margin-top:10%;
+	padding: 5px 5px 5px 5px;
+	box-shadow: -10px 10px 15px  grey;
+	border-radius: 20px;
+}
+.liexp{
+	list-style-type: square;
+}
+li{
+	line-height: 1.5;
+}
+.titreform{
+font-size:1.5em;
+	border:0px black solid;
+	border-radius: 50px;
+	padding: 8px;
+	background-color:#e6dace; 
+}
+.formation{
+	border:0px black solid;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	background-color: white;
+	padding:5px 5px 5px 5px;
+	box-shadow: -10px 10px 15px  grey;
+	border-radius: 20px;
+}
+.liform{
+	list-style-type: square;
+}
+.titresoft{
+    font-size:1.5em;
+	border:0px black solid;
+	border-radius: 50px;
+	padding: 8px;
+	background-color:#e6dace; 	
+}
+.Soft_Skills{
+    border:0px black solid;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	background-color: white;
+	padding:5px 5px 5px 5px;
+	box-shadow: -10px 10px 15px  grey;	
+	border-radius: 20px;
+}
+#colsoft{
+  column-count: 2;
+}
+.lisoft{
+	list-style-type: square;
+}
+.titrehard{
+    font-size:1.5em;
+	border:0px black solid;
+	border-radius: 50px;
+	padding: 8px;
+	background-color:#e6dace; 	
+}
+.Hard_Skills{
+    border:0px black solid;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	background-color: white;
+	padding:5px 5px 5px 5px;
+	box-shadow: -10px 10px 15px  grey;
+	margin-bottom: 5%;	
+	border-radius: 20px;	
+}
+#colhard{
+	column-count: 2;
+}
+#footer{
+	display: flex;
+	justify-content: space-between;
+	border : 0px black solid;
+	background-color: white;
+	padding:1% 5% ;
+	height: 100px;
+}
