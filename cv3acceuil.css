@@ -212,15 +212,18 @@ span.projets:hover{
 	}
 	.photo{
 		width: 100%;
-		order:2;
+		/*order:2;*/
 		border-radius: unset;
+		background-color: #90b796;
 	}
 	.textepresentation{
 		width: 100%;
-		order:1;
+		/*order:1;*/
 		height: 350px;
 		text-align: center;
-		margin-top: -10px
+		margin-top: -10px;
+		background-color: #f7f1e3;
+	
 	}
 
 }

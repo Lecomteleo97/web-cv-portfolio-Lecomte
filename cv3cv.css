@@ -241,3 +241,67 @@ ul li::before {
 	padding:1% 5% ;
 	height: 100px;
 }
+@media screen and (max-width: 600px){
+
+	body{
+		background-image: none;
+		background-color: #90b796;
+	}
+	header{
+		flex-direction: column;
+		height: 150px;
+		justify-content: space-between;
+		position: relative;
+		margin-top: auto;
+	}
+    h1{
+		flex-wrap: wrap;
+		font-size: 1.1em;
+		margin-top: 20px;
+		margin-left: 0px;
+		padding-left: 20px;
+		/*border-bottom: 1px black solid;
+		padding-bottom: 30px;*/
+	}
+	nav{
+		width: 100%;
+		justify-content: space-around;
+		font-size: 0.9em;
+		text-align: center;
+		background-color: #f7f1e3;
+
+	}
+	#navigation{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		margin-left: -25px;
+	}
+	h2{
+		display: none;
+	}
+	.lisoft{
+		list-style:none;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+		padding-left: 13%;
+	}
+	.lihard{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+		padding-left: 13%;
+		list-style:none;
+	}
+	.titreexp{
+		display: block;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	span[class*=titre]{
+		font-size: 1.1em;
+	}
+}
