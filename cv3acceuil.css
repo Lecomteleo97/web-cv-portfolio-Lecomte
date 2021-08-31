@@ -50,7 +50,6 @@ nav{
 }
 #navigation{
 	border:0px solid black;
-	/*margin-top: 50px;*/
 	display: inline-flex;
 	flex-direction: row;
 }
@@ -167,3 +166,61 @@ span.projets:hover{
 	height: 100px;
 	margin-top: 100px;
 }*/
+@media screen and (max-width: 600px){
+
+	body{
+		background-image: none;
+		background-color: #90b796;
+	}
+	header{
+		flex-direction: column;
+		height: 150px;
+		justify-content: space-between;
+		position: relative;
+		margin-top: auto;
+	}
+    h1{
+		flex-wrap: wrap;
+		font-size: 1.1em;
+		margin-top: 20px;
+		margin-left: 0px;
+		padding-left: 20px;
+		/*border-bottom: 1px black solid;
+		padding-bottom: 30px;*/
+	}
+	nav{
+		width: 100%;
+		justify-content: space-around;
+		font-size: 0.9em;
+		text-align: center;
+		background-color: #f7f1e3;
+
+	}
+	#navigation{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		margin-left: -25px;
+	}
+	.box-texte-photo{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		border-radius: unset;
+		box-shadow: none;
+	}
+	.photo{
+		width: 100%;
+		order:2;
+		border-radius: unset;
+	}
+	.textepresentation{
+		width: 100%;
+		order:1;
+		height: 350px;
+		text-align: center;
+		margin-top: -10px
+	}
+
+}
