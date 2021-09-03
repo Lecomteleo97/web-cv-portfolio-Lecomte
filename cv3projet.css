@@ -90,7 +90,7 @@ div[class*=photo-bouton]{
     height: 350px;
     border: 0px black solid;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+	box-shadow: -10px 10px 15px  grey;
 }
 .projet-picture{
     width: 492px;

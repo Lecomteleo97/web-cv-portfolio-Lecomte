@@ -25,7 +25,7 @@ nav{
 .Name{
 	font-size: 1.1em;
 }
-.fas{
+.fas, .fab{
 	color: #f5d033;
 	margin-right: 5px;
 }
@@ -80,14 +80,15 @@ h2{
 }
 #box-contact{
     width: 70%;
-    height: 300px;
+    height: 380px;
     background-color: white;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 50px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+    box-shadow: -10px 10px 15px  grey;
+	margin-bottom: 30px;
 }
 .texte-zone{
     width: 350px;
@@ -141,7 +142,7 @@ h2{
     }
     #box-contact{
     width: 90%;
-    height: 300px;
+    height: 350px;
     font-size: 0.7em;
     border-radius: unset;
     }
