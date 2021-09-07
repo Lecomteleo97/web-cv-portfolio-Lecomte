@@ -237,7 +237,7 @@ span.projets:hover{
 	.textepresentation{
 		width: 100%;
 		/*order:1;*/
-		height: 450px;
+		height: auto;
 		text-align: center;
 		margin-top: -10px;
 		background-color: #f7f1e3;
