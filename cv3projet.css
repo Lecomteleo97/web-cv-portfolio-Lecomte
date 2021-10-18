@@ -116,6 +116,9 @@ div[class*=photo-bouton]{
     font-size: 1.2em;
     font-weight: bold;
 }
+.projet-3, .projet-2, .projet-1{
+	margin-bottom: 40px;
+}
 
 #footer{
 	display: flex;
@@ -182,6 +185,9 @@ div[class*=photo-bouton]{
 	}
 	#box-projet{
 		height: 800px;
+	}
+	.projet-3{
+		margin-top: 240px;
 	}
 	
 }

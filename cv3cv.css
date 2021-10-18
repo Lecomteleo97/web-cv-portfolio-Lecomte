@@ -305,7 +305,7 @@ ul li::before {
 		font-size: 1.1em;
 	}
 	.Soft_Skills, .Hard_Skills, .formation, .experience{
-		width: 80%;
+		width: 100%;
 		margin: auto;
 		margin-top: 30px;
 		border-radius: unset;

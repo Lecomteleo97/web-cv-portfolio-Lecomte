@@ -246,9 +246,6 @@ span.projets:hover{
 	.info{
 		display: none;
 	}
-	.p-ordi{
-		display: none;
-	}
 	.p-phone{
 		display:flex;
 	}
