@@ -109,6 +109,7 @@ img {
   display: flex;
   border-radius: 10% 0 0 10%;
   box-shadow: -10px 10px 15px grey;
+  margin-top: 20%;
 }
 span.cv {
   border: 1px #f5d033 solid;
